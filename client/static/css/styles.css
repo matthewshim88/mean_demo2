@@ -1,0 +1,31 @@
+.appBody {
+  background: url("../img/doctors-appt.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.makeOrange {
+  color: orange;
+}
+
+.mainDash {
+  background-color: AliceBlue;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.loginMain {
+  background-color:AliceBlue;
+  margin: 200px 300px 300px 300px;
+  width: 600px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.apptBlock {
+  background-color: AliceBlue;
+  width: 300px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 300px;
+}

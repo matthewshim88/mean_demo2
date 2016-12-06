@@ -1,7 +1,7 @@
 
-<h2 ng-model="currUser">Welcome {{currUser.name}}!</h2>
+<h2 ng-model="currUser">Welcome <span class="makeOrange"> {{currUser.name}}!</span></h2>
 <a class="btn btn-primary" href='/logout'>logout</a>
-<div ng-controller="appointmentController">
+<div class="mainDash" ng-controller="appointmentController">
   <h1>Doctor's Appointments</h1>
   <p><input type='text' ng-model='filter_name' placeholder="search by name..."</p>
   <table class="table">

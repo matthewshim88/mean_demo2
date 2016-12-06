@@ -1,13 +1,15 @@
-<div ng-controller='appointmentController'>
-		<h2>New Appointment</h2>
-		<form ng-submit="add()">
-			Date: <input type='date' ng-model='newAppointment.date'><br>
-			Time: <input type='time' ng-model='newAppointment.time'><br>
-			<p style='vertical-align:top'>Complain: <textarea rows='8' ng-model='newAppointment.complaint'></textarea></p>
-			<input type="submit" value="Add Appointment" class="btn btn-primary">
-			<a href="#/dashboard" class='btn btn-warning'>Cancel</a>
-		</form>
-    <div ng-repeat='message in errors'>
-      <h2 style='color:red;' ng-bind='message'></h2>
-    </div>
+<div class="apptBlock">
+	<div ng-controller='appointmentController'>
+			<h2>New Appointment</h2>
+			<form ng-submit="add()">
+				Date: <input type='date' ng-model='newAppointment.date'><br>
+				Time: <input type='time' ng-model='newAppointment.time'><br>
+				<p style='vertical-align:top'>Complain: <textarea rows='8' ng-model='newAppointment.complaint'></textarea></p>
+				<input type="submit" value="Add Appointment" class="btn btn-primary">
+				<a href="#/dashboard" class='btn btn-warning'>Cancel</a>
+			</form>
+	    <div ng-repeat='message in errors'>
+	      <h2 style='color:red;' ng-bind='message'></h2>
+	    </div>
+	</div>
 </div>
